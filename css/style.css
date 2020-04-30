@@ -1,0 +1,165 @@
+body {
+  background: #E0FFFF;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  background: none;
+  width: 600px;
+  height: 420px;
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.head-copy {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.ear-left {
+  position: absolute;
+  background-color: black;
+  top: -53%;
+  left: -72%;
+  width: 80%;
+  height: 76%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ear-right {
+  position: absolute;
+  background-color: black;
+  top: -53%;
+  right: -72%;
+  width: 80%;
+  height: 76%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.eye-left {
+  position: absolute;
+  background-color: white;
+  top: 5%;
+  left: 15%;
+  width: 30%;
+  height: 45%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.eye-right {
+  position: absolute;
+  background-color: white;
+  top: 5%;
+  right: 15%;
+  width: 30%;
+  height: 45%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.pupil {
+  position: absolute;
+  background-color: #696969;
+  top: 22%;
+  left: 35%;
+  width: 30%;
+  height: 50%;
+  border-radius: 45%;
+}
+
+.nose {
+  position: absolute;
+  background-color: black;
+  top: 45%;
+  left: 25%;
+  width: 55%;
+  height: 25%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* mouth inspired by https://codepen.io/hullen/pen/vLmzF */
+
+.mouth {
+  position: absolute;
+  z-index: 2;
+  top: 43%;
+  left: 0;
+  right: 0;
+  height: 110px;
+  width: 115px;
+  margin: 0 auto;
+  border-bottom: 8px solid #222;
+  border-radius: 100%;
+}
+
+.left-top {
+  position: absolute;
+  background-color: pink;
+  top: -12%;
+  left: -3%;
+  width: 75%;
+  height: 76%;
+  border-radius: 50%;
+}
+
+.right-top {
+  position: absolute;
+  background-color: pink;
+  top: -12%;
+  right: -3%;
+  width: 75%;
+  height: 76%;
+  border-radius: 50%;
+}
+
+.bottom-1 {
+  position: absolute;
+  background-color: pink;
+  top: 50%;
+  left: -45%;
+  width: 75%;
+  height: 77%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.bottom-2 {
+  position: absolute;
+  background-color: pink;
+  top: 50%;
+  left: 5%;
+  width: 85%;
+  height: 86%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.bottom-3 {
+  position: absolute;
+  background-color: pink;
+  top: 50%;
+  right: -35%;
+  width: 75%;
+  height: 76%;
+  border-radius: 50%;
+  z-index: 1;
+}
